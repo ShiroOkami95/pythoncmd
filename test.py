@@ -526,6 +526,7 @@ def calc():
   x=input("Input operation\n(eg. 27-6)\n\n==>")
   if x=="end":
     print(" \n\n    xxxxxxxxxx EXIT xxxxxxxxxx\n\n")
+    cmdprompt()
   else:
     print("\n")
     print(str(x)+"= "+str(eval(x)))

@@ -554,7 +554,7 @@ def cmdprompt():
   #commands loop
   def cmd():
     code=input("==>")
-    if code=="exit":
+    if code=="logout":
       print("  xxxxxxxxxx  Log out  xxxxxxxxxx  \n\n")
       exit()
     elif code=="show":

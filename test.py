@@ -623,7 +623,7 @@ def cmdprompt():
                 
       """)
       cmd()
-     elif code=="help":
+    elif code=="help":
       print("""   Available commands->
                    
                    ls

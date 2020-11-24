@@ -555,7 +555,7 @@ def cmdprompt():
   def cmd():
     code=input("==>")
     if code=="logout":
-      print("  xxxxxxxxxx  Log out  xxxxxxxxxx  \n\n")
+      print("\n\n  xxxxxxxxxx  Log out  xxxxxxxxxx  \n\n")
       exit()
     elif code=="show":
       print("\nCalculator-> A python-based calculator.")
@@ -631,7 +631,7 @@ def cmdprompt():
                    show
                    info
                    help
-                   exit
+                   logout
       """)
       cmd()
     else:

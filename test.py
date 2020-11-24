@@ -538,7 +538,7 @@ def cmdprompt():
   #Intro to my command prompt
   print("\n\n\n xxxxxxxxxx  Python CMD 0.1  .0  xxxxxxxxxx  ")
   print("\n\nFor Beginners-")
-  print("Help- shows available commands")
+  print("help- shows available commands")
   print("show- gives a list of the currently available tools")
   print("info- to know more about creator/ creator's social media")
   print(" \n\n")
@@ -621,6 +621,17 @@ def cmdprompt():
                 Calculator (calc)
                 
                 
+      """)
+      cmd()
+     elif code=="help":
+      print("""   Available commands->
+                   
+                   ls
+                   run (file-name)
+                   show
+                   info
+                   help
+                   exit
       """)
       cmd()
     else:

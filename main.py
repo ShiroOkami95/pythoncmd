@@ -888,7 +888,7 @@ def cmdprompt():
       div()
     elif code=="run calc":
       calc()
-    elif code=="run Geometry"
+    elif code=="run Geometry":
       geometry()
     elif code=="ls":
       print(""" 

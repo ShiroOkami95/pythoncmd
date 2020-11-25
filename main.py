@@ -888,12 +888,14 @@ def cmdprompt():
       div()
     elif code=="run calc":
       calc()
+    elif code=="run Geometry"
+      geometry()
     elif code=="ls":
       print(""" 
       Available Tools~
           
                 TrigoTable
-                circle
+                Geometry
                 TicTacToe (TTT)
                 AgeTest
                 DivisiTest
